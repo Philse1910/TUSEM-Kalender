@@ -1,2 +1,2 @@
-# tusem-Kalender
+# TUSEM-Kalender
 Kalenderfeeds TUSEM Essen
