@@ -1,0 +1,48 @@
+name: F2-Kalender automatisch aktualisieren
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-f2-calendar
+  cancel-in-progress: false
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Python-Pakete installieren
+        run: python -m pip install -r requirements.txt
+
+      - name: Kalender erzeugen
+        run: python update_calendar.py
+
+      - name: Änderung speichern
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add F2.ics
+
+          if git diff --cached --quiet; then
+            echo "Keine Kalenderänderung gefunden."
+          else
+            git commit -m "F2-Kalender automatisch aktualisieren"
+            git push
+          fi
