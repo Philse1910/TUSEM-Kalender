@@ -21,19 +21,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:8318e317c9d180bf2832f13e@tusem-kalender.local
-DTSTAMP:20260908T195625Z
-DTSTART;TZID=Europe/Berlin:20260912T103000
-DTEND;TZID=Europe/Berlin:20260912T123000
-SUMMARY:⚽ SG Essen-Schönebeck III – TUSEM Essen II
-DESCRIPTION:Wettbewerb: Kinderfußball\nQuelle: https://www.fussball.de/man
- nschaft/tusem-essen-ii-tusem-essen-1926-niederrhein/-/saison/2627/team-id/
- 011MIE41AK000000VTVG0001VTR8C1K7
-URL:https://www.fussball.de/mannschaft/tusem-essen-ii-tusem-essen-1926-nied
- errhein/-/saison/2627/team-id/011MIE41AK000000VTVG0001VTR8C1K7
-LOCATION:Ardelhütte 166\, 45359 Essen
-END:VEVENT
-BEGIN:VEVENT
 UID:1e265ce60a8095e14f95a737@tusem-kalender.local
 DTSTAMP:20260908T195625Z
 DTSTART;TZID=Europe/Berlin:20260919T100000
