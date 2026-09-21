@@ -36,15 +36,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:524a681e62331ae31d41e8e4@tusem-kalender.local
 DTSTAMP:20260908T195625Z
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-SUMMARY:⚽ SG Kupferdreh-Byfang II – TUSEM Essen II (Uhrzeit offen)
-DESCRIPTION:Wettbewerb: Kinderfußball\nUhrzeit noch offen\; 00:01 wird nic
- ht als echte Anstoßzeit übernommen.\nQuelle: https://www.fussball.de/man
- nschaft/tusem-essen-ii-tusem-essen-1926-niederrhein/-/saison/2627/team-id/
- 011MIE41AK000000VTVG0001VTR8C1K7
+DTSTART;TZID=Europe/Berlin:20261010T090000
+DTEND;TZID=Europe/Berlin:20261010T110000
+SUMMARY:⚽ Kinderfestival bei TUSEM Essen II
+DESCRIPTION:Wettbewerb: Kinderfußball\nOrt: Heimspiel-Fallback des TUSEM E
+ ssen.\nQuelle: https://www.fussball.de/mannschaft/tusem-essen-ii-tusem-ess
+ en-1926-niederrhein/-/saison/2627/team-id/011MIE41AK000000VTVG0001VTR8C1K7
 URL:https://www.fussball.de/mannschaft/tusem-essen-ii-tusem-essen-1926-nied
  errhein/-/saison/2627/team-id/011MIE41AK000000VTVG0001VTR8C1K7
-LOCATION:Hinsbecker Berg 30\, 45257 Essen
+LOCATION:Fibelweg 7\, 45149 Essen
 END:VEVENT
 END:VCALENDAR
