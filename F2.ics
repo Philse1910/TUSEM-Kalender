@@ -21,19 +21,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:f9ff823dd10ad58a2188d9e3@tusem-kalender.local
-DTSTAMP:20260908T195625Z
-DTSTART;TZID=Europe/Berlin:20260926T093000
-DTEND;TZID=Europe/Berlin:20260926T113000
-SUMMARY:⚽ Kinderfestival bei TUSEM Essen II
-DESCRIPTION:Wettbewerb: Kinderfußball\nQuelle: https://www.fussball.de/man
- nschaft/tusem-essen-ii-tusem-essen-1926-niederrhein/-/saison/2627/team-id/
- 011MIE41AK000000VTVG0001VTR8C1K7
-URL:https://www.fussball.de/mannschaft/tusem-essen-ii-tusem-essen-1926-nied
- errhein/-/saison/2627/team-id/011MIE41AK000000VTVG0001VTR8C1K7
-LOCATION:Fibelweg 7\, 45149 Essen
-END:VEVENT
-BEGIN:VEVENT
 UID:524a681e62331ae31d41e8e4@tusem-kalender.local
 DTSTAMP:20260908T195625Z
 DTSTART;TZID=Europe/Berlin:20261010T090000
