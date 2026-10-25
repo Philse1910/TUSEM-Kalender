@@ -36,15 +36,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ba7a91fe67f2b6901dc1c8c2@tusem-kalender.local
 DTSTAMP:20261022T115128Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:⚽ SuS Haarzopf II – TUSEM Essen II (Uhrzeit offen)
-DESCRIPTION:Wettbewerb: Kinderfußball\nUhrzeit noch offen\; 00:01 wird nic
- ht als echte Anstoßzeit übernommen.\nQuelle: https://www.fussball.de/man
+DTSTART;TZID=Europe/Berlin:20261114T113000
+DTEND;TZID=Europe/Berlin:20261114T133000
+SUMMARY:⚽ SuS Haarzopf II – TUSEM Essen II
+DESCRIPTION:Wettbewerb: Kinderfußball\nQuelle: https://www.fussball.de/man
  nschaft/tusem-essen-ii-tusem-essen-1926-niederrhein/-/saison/2627/team-id/
  011MIE41AK000000VTVG0001VTR8C1K7
 URL:https://www.fussball.de/mannschaft/tusem-essen-ii-tusem-essen-1926-nied
  errhein/-/saison/2627/team-id/011MIE41AK000000VTVG0001VTR8C1K7
+LOCATION:Kunstrasenplatz\, Föhrenweg Kunstrasen\, Föhrenweg 2\, 45149 Ess
+ en
 END:VEVENT
 BEGIN:VEVENT
 UID:37491bb45b347ef544107eff@tusem-kalender.local
